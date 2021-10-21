@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Bootstrap template 2</title>
+
+    <!--My own Style-->
+    <style>
+        @media (max-width:768px) {
+            .margin-top{
+            margin-top: 40px;
+        }
+        }
+       
+    </style>
+</head>
+<body>
+    <!--  nav  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="website logo" height="30"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Coding
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        
+                    <li>
+                        <a class="dropdown-item" href="#">Full Stack Jaa Script</a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="#">Python</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Artificial Intelligence</a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="#">Mobile Development</a>
+                    </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Money
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Real Life Projects</a></li>
+                    <li><a class="dropdown-item" href="#">Business & Ideas</a></li>
+                    <li><a class="dropdown-item" href="#">Online Marketing</a></li>
+
+                    <li><a class="dropdown-item" href="#">Stock Trading</a></li>
+                    </ul>
+                </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Carousel -->
+    <div id="showCase" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#showCase" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                    </button>
+
+                    <button type="button" data-bs-target="#showCase" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                    <button type="button" data-bs-target="#showCase" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    
+            </div>
+
+            <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/bg-1.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/bg-2.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/bg-3.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#showCase"              data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#showCase" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+
+    <div class="container pt-4">
+        <!-- About -->
+            <div class="row">
+                <div class="col-lg">
+                    <h3 class="mb-4">Hello !</h3>
+                    <img src="img/placeholder.jpg" class="img-fluid mb-4 rounded" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit aut quis. Deserunt, dolor consequatur?</p>
+                </div>
+                <div class="col-lg">
+                    <h3 class="mb-4">Coding Money</h3>
+                    <p>
+                        Coding Money is about coding and making money online and everything in between, covering wide variety of topics such  as full stack development technologies, A.I., online marketing and online business ideas.
+                    </p>
+                    <p>
+                        I will be documenting my journey, real-life projects and sharing my knowledge every step of the way so that you can learn from my success and failures.
+                    </p>
+                    
+                </div>
+                <div class="col-lg">
+                    <h3 class="mb-4">Upcoming Videos</h3>
+                    <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action"><strong class="text-primary">Coding</strong>: Whats  New in Bootstrap 5</a>
+                            <a href="#" class="list-group-item list-group-item-action"><strong class="text-success">Money</strong>: Investing to make money with Stocks part 2</a>
+                            <a href="#" class="list-group-item list-group-item-action"><strong class="text-primary">Coding</strong>: Full Stack JavaScript Series</a>
+                            <a href="#" class="list-group-item list-group-item-action"><strong class="text-success">Money</strong>: How to Create Youtube Ads</a>
+                            <a href="#" class="list-group-item list-group-item-action"><strong class="text-success">Money</strong>: Affiliate Marketing</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Videos -->
+        <h1 class="display-3 text-center text-muted my-4">Videos</h1>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="img/vid-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="img/vid-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="img/vid-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="img/vid-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="img/vid-5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="img/vid-6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <!-- NewsLetter -->
+        <div class="row py-4 text-muted">
+            <div class="col-md">
+                <p><strong>Weekly Newsletter</strong></p>
+                <p>I send one email every week about the projects I am working on and things that I am learning. Exclusive valuable content you won't find anywhere else. </p>
+            </div>
+
+            <div class="col-md col-lg-5 ">
+                <p><strong>Stay up-to-date on Coding Money</strong></p>
+                <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">Sign up</button>
+                </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer-->
+        <div class="row py-3 text-center">
+            <div class="col-md-7">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Other Prducts</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Example single danger button -->
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                                Social Media
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://www.youtube.com/channel/UCaj6HRoG3Vlr0YaAF_4Lwig">Youtube</a>
+                                <a class="dropdown-item" href="https://facebook.com/codingmoneycom">Facebook</a>
+                                <a class="dropdown-item" href="https://instagram.com/codingmoneycom">Instagram</a>
+                                <a class="dropdown-item" href="https://twitter.com/codingmoneycom">Twitter</a>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+
+            <div class="col-md  margin-top">
+                <small>&copy; 2020  <a href="http://codingmoney.com/">Bootstrap 5 theme by CodingMoney.com</a></small>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript and Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
